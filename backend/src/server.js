@@ -12,10 +12,10 @@ const PORT = process.env.PORT || 5001
 
 app.use(express.json())
 app.use(cors({
-  origin: 'http://localhost:5173',
+  // origin: 'http://localhost:5173',
   // origin: 'http://192.168.100.232:5173',
-  methods: ['GET', 'POST', 'PUT', 'DELETE'],
-  allowedHeaders: ['Content-Type', 'Authorization'],
+  // methods: ['GET', 'POST', 'PUT', 'DELETE'],
+  // allowedHeaders: ['Content-Type', 'Authorization'],
 }))
 
 app.use("/api/user", userRoutes)
