@@ -1,7 +1,7 @@
 import axios from 'axios'
 
 // const API_URL = 'http://localhost:5001/api/task'
-const API_URL = import.meta.env.VITE_API_URL + '/api/task'
+const API_URL = import.meta.env.VITE_API_URL + '/api/auth'
 
 // export const register = (token, registerData) => {
 //   return axios.post(`${API_URL}/register`, registerData)
