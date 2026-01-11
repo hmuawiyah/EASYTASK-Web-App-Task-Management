@@ -158,7 +158,7 @@ const Navbar = ({ user }) => {
             </li>
 
             <li><span><Link to={"/about"} className="text-lg">About</Link></span></li>
-            <li><span><Link to={"https://github.com/hmuawiyah/"} target="_blank" className="text-lg">Author</Link></span></li>
+            <li><span><Link to={"https://github.com/hmuawiyah/"} target="_blank" className="text-lg">Github</Link></span></li>
           </ul>
         </div>
 
@@ -214,12 +214,12 @@ const Navbar = ({ user }) => {
                         <li><Link to={"/dashboard"} onClick={e => setContent("task")} className="text-lg">Task</Link></li>
                       </ul>
                       <Link to="#" className="text-lg">About</Link>
-                      <Link to={"https://github.com/hmuawiyah/"} target="_blank" className="text-lg">Author</Link>
+                      <Link to={"https://github.com/hmuawiyah/"} target="_blank" className="text-lg">Github</Link>
                       </>
                     : <>
                     <Link to={"/"} className="text-lg">Home</Link>
                     <Link to={"/about"} className="text-lg">About</Link>
-                    <Link to={"https://github.com/hmuawiyah/"} target="_blank" className="text-lg">Author</Link>
+                    <Link to={"https://github.com/hmuawiyah/"} target="_blank" className="text-lg">Github</Link>
                     </>
                 }
               </li>
