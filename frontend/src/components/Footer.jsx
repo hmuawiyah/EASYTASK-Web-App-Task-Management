@@ -31,10 +31,10 @@ const Footer = () => {
           <p className=" text-sm"><FontAwesomeIcon icon={faFile} /> Bringing New People Onboard</p>
         </div>
 
-        <div className="col-span-6 md:col-span-4 flex flex-col md:justify-end">
+        <div className="col-span-6 md:col-span-4 flex flex-col md:justify-end gap-4">
           {/* <p className="font-medium text-2xl">TaskNest</p> */}
-          <p className="font-bold -tracking-[3px] text-5xl text-[#00000017]">EasyTask</p>
-          <p className='text-sm opacity-80 mt-2 md:mt-0'>@2025 Husein’s Web App Task Management</p>
+          <p className="font-bold -tracking-[3px] text-5xl text-[#00000017] text-start md:text-end">EasyTask</p>
+          <p className='text-sm opacity-40 md:mt-0 text-start md:text-end'>@2025 Husein’s Web App Task Management</p>
         </div>
 
       </div>
