@@ -2,11 +2,15 @@
 
 # EasyTask — Task Management Web App
 
+![thumbnail](https://github.com/hmuawiyah/EASYTASK-Web-App-Task-Management/blob/main/screenshot/Thumbnail.png?raw=true)
+
 EasyTask is a role-based task management web application with progressive task statuses to help users monitor their work effectively.  
 
 The application uses JSON Web Token (JWT) as the authentication system, allowing users with the **Member** role to manage their own tasks through full CRUD operations.  
 
 Meanwhile, users with the **Admin** role have additional privileges to manage tasks belonging to member users.
+
+
 
 
 
@@ -29,6 +33,8 @@ Meanwhile, users with the **Admin** role have additional privileges to manage ta
 - Mongoose
 
 - JSON Web Token (JWT)
+
+
 
 
 
@@ -64,9 +70,13 @@ Meanwhile, users with the **Admin** role have additional privileges to manage ta
 
 
 
+
+
 ## Development Duration
 
 ⏱️ Approximately **2 months**
+
+
 
 
 
@@ -79,6 +89,8 @@ Meanwhile, users with the **Admin** role have additional privileges to manage ta
 - Implementing state management using Zustand
 
 - Validating and inspecting incoming requests as a fundamental security measure
+
+
 
 
 
