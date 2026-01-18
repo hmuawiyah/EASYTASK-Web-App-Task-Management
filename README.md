@@ -1,4 +1,5 @@
 
+  
 
 # EasyTask — Task Management Web App
 
@@ -44,29 +45,29 @@ Meanwhile, users with the **Admin** role have additional privileges to manage ta
 
 - Role-based access control
 
-&nbsp; - **Member**
+  - **Member**
 
-&nbsp;   - Create, Read, Update, and Delete (CRUD) personal tasks
+  - Create, Read, Update, and Delete (CRUD) personal tasks
 
-&nbsp;   - Manage profile settings
+  - Manage profile settings
 
-&nbsp; - **Admin**
+  - **Admin**
 
-&nbsp;   - CRUD personal tasks
+  - CRUD personal tasks
 
-&nbsp;   - CRUD tasks belonging to member users
+  - CRUD tasks belonging to member users
 
-&nbsp;   - Manage profile settings
+  - Manage profile settings
 
 - Authentication system using JSON Web Token (JWT)
 
 - Task status management:
 
-&nbsp; - Pending
+  - Pending
 
-&nbsp; - On Progress
+  - On Progress
 
-&nbsp; - Completed
+  - Completed
 
 
 
@@ -97,6 +98,3 @@ Meanwhile, users with the **Admin** role have additional privileges to manage ta
 ## Live Demo
 
 👉 https://easytask-web.vercel.app/
-
-
-
